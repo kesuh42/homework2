@@ -1,4 +1,8 @@
+.articletitle {
+    padding: 20px 0px;
+}
 
-.container: {
-    width: 100%;
+#kevinpic {
+    height: 150px;
+    width: 150px;
 }
