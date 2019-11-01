@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -30,22 +31,46 @@
                   </nav>
     </header>
 
-    <div class="textbackground">
-    <article>
-        <div class="articlecontent">
-        <h1 class="articletitle">Contact</h1>
-        <form>
-        Name: <br>
-        <input class="data" type="text" name="name" placeholder="John Smith"><br>
-        Email: <br>
-        <input class="data" type="text" name="email" placeholder="example@gmail.com"><br>
-        Message: <br>
-        <textarea class="data" id="messagebox" cols="30" rows="10"></textarea>
-        </form>
-        <br>
-        <button type="button">Submit</button>
+    <div class="container-fluid pagebackground">
+      <div class="row topborder">
+      </div>
+      
+      <div class="row">
+
+        <div class="col-md-2">
         </div>
-    </article>
+
+        <div class="col-md-8 articlebox">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1 class="articletitle">Contact</h1>
+              </div>
+
+            </div>
+
+            <div class="row articlecontent">
+              <div class="col-md">
+                  <form>
+                      Name: <br>
+                      <input class="data" type="text" name="name" placeholder="John Smith"><br>
+                      Email: <br>
+                      <input class="data" type="text" name="email" placeholder="example@gmail.com"><br>
+                      Message: <br>
+                      <textarea class="data" id="messagebox" cols="30" rows="10"></textarea>
+                      </form>
+                      <br>
+                      <button type="button">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+        </div>
+      
+
+      </div>
     </div>
 
     <footer>
