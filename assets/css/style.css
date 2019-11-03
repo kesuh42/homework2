@@ -14,7 +14,7 @@
 
 .pagebackground {
     background-color: #dddddd;
-    height: 1000px;
+    height: 2000px;
 }
 
 .articlebox {
@@ -56,7 +56,7 @@
 }
 
 .portfolioimg {
-    height: 200px;
+    width: 200px;
 }
 
 .portfoliobox {
