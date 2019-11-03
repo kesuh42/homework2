@@ -1,1 +1,1 @@
-# homework2: Responsive Design
+# homework2: Responsive Portfolio
